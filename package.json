@@ -1,0 +1,23 @@
+{
+  "name": "second",
+  "version": "1.0.0",
+  "description": "dedede",
+  "main": "server.js",
+  "scripts": {
+    "test": "start",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heckfy811/second.git"
+  },
+  "keywords": [
+    "no"
+  ],
+  "author": "heckfy811",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heckfy811/second/issues"
+  },
+  "homepage": "https://github.com/heckfy811/second#readme"
+}
