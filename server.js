@@ -14,7 +14,7 @@ const server = http.createServer((req, res) => {
       }
     });
   } else if (req.url === '/styles.css') {
-    fs.readFile(path.join(__dirname, 'styles.css'), (err, content) => {
+    fs.readFile(path.join(__dirname, 'styles/styles.css'), (err, content) => {
       if (err) {
         res.writeHead(500);
         res.end('Ошибка сервера');
